@@ -25,7 +25,6 @@ section, header, footer {
 
 }
 
-
 section {
     margin-bottom: 8rem;
 
@@ -33,7 +32,7 @@ section {
 
 p, blockquote {
     padding: .5rem 0;
-    line-height: 1.5;
+    line-height: 1.6;
 
 }
 
@@ -68,10 +67,12 @@ h3 {
 
 }
 
+
+
 a {
     text-decoration: none;
-
 }
+
 
 blockquote {
     font-style: italic;
@@ -80,60 +81,66 @@ blockquote {
     line-height: 2rem;
 }
 
+/*--nav styling--*/
+
+nav ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    background-color:rgb(22, 64, 38);
+    padding: 3rem 15rem 3rem 0;
+    font-family: BD-Supper, sans-serif;
+    font: size 1.2rem;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+nav a {
+    color:#f6f6f6;
+}
+
+nav a:hover {
+    border-bottom: nono;
+    color:rgb(95, 95, 95);;
+    transition: all 0.3s ease-in-out;
+}
+
+html {
+    scroll-padding-top: 10rem;
+}
 
 
-    /*--nav styling--*/
 
-    nav ul{
-        position: fixed;
-        top: 0;
-        left: 0;
-        margin: auto;
-        width: 100%;
-        background-color:rgb(22, 64, 38);
-        padding: 3rem 15rem 3rem 0;
-        font-family: BD-Supper, sans-serif;
-        font: size 1.5rem;
-    }
+/*--footer styling--*/
 
-    nav ul {
-       
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
+footer {
+    font-family: BD-Supper;
+    font-size: 1rem;
+    line-height: 4rem;
+    padding-bottom: 10rem;
+}
 
-    nav ul li {
-        display: inline;
-        margin: 20px;
-        background: none;
-    }
+footer a{
+    font-family: BD-Supper;
+    font-size: 1.5rem;
+    color:rgb(22, 64, 38);
+    padding-right: 1rem;
+}
 
-    nav a {
-        color:#f5f5f5;
-    }
+footer h4{
+    padding-top: 1.5rem;
+}
 
-    nav a:hover {
-        border-bottom: nono;
-        color:rgb(95, 95, 95);;
-        transition: all 0.3s ease-in-out;
-    }
 
-     /*--footer styling--*/
-
-    footer {
-        font-family: BD-Supper;
-        font-size: 1rem;
-        line-height: 4rem;
-        padding-bottom: 10rem;
-    }
-
-    footer a{
-        font-family: BD-Supper;
-        font-size: 1.5rem;
-        color:rgb(22, 64, 38);
-        padding-right: 1rem;
-    }
-
-    
- 
