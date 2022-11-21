@@ -22,18 +22,15 @@ section, header, footer {
     max-width: 700px;
     margin: auto;
     text-align: left;
-
 }
 
 section {
     margin-bottom: 8rem;
-
 }
 
 p, blockquote {
     padding: .5rem 0;
     line-height: 1.6;
-
 }
 
 header {
@@ -50,7 +47,6 @@ h1 {
     margin-top: 17.5rem;
     padding-bottom: 3rem;
     font-style: bold
-
 }
 
 h2 {
@@ -64,15 +60,11 @@ h3 {
     font-family: BD-Supper, sans-serif;
     font-size: 2rem;
     padding-bottom: 1rem;
-
 }
-
-
 
 a {
     text-decoration: none;
 }
-
 
 blockquote {
     font-style: italic;
@@ -120,8 +112,6 @@ nav a:hover {
 html {
     scroll-padding-top: 10rem;
 }
-
-
 
 /*--footer styling--*/
 
