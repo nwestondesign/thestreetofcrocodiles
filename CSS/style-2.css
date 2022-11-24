@@ -1,0 +1,224 @@
+/*-- CSS reset --*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*--Starting Main Styling--*/
+
+body {
+    background: #fffaf7;
+    color: #333;
+    font-family: Source Serif Pro, serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+section, header {
+    padding-right: 0rem;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+section {
+    margin-bottom: 5rem;
+}
+
+header {
+    padding-top: 2rem;
+    margin-bottom: 5rem
+}
+
+h1, h2{
+    font-family: Cinzel, serif;
+    font-weight: bold;
+    color: #5c1606;
+}
+
+h1 {
+    font-size: 6.28rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding-top: 5rem;
+}
+
+h3, h4 {
+    font-family: Cinzel, serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 3rem;   
+}
+
+h3 {
+    color:#5c1606;
+    padding-top: 5rem;
+}
+
+h4 {
+    color:#fffaf7;
+    padding-top: 5rem;
+}
+
+p, blockquote {
+    line-height: 1.9rem;
+    word-spacing: 0.05rem;
+    padding-top: 2rem;
+}
+
+blockquote {
+    font-style: italic;
+    color: #5c1606;
+    margin: 0rem 2rem 2rem 2rem;
+}
+
+#block {
+    color: #fffaf7;
+    background: #5c1606;
+    margin: auto;
+    width: 80%;
+    padding: 0 20rem 5rem 20rem;
+}
+
+#July {
+    padding-top: 5rem;
+}
+
+/*--Nav Styling--*/
+
+nav ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    background-color:#5c1606;
+    padding: 3rem 15rem 3rem 0rem;
+    font-family: Cinzel, serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+nav a {
+    color:#f6f6f6;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: nono;
+    color:rgb(95, 95, 95);;
+    transition: all 0.3s ease-in-out;
+}
+
+html {
+    scroll-padding-top: 7rem;
+}
+
+/*--img styling--*/
+
+img {
+    display: block;
+    margin: 5rem 0 0 0;
+    padding: 0;
+    max-width: 100%;
+    align-items: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 50;
+    padding: 0 5px 0 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    max-width: 100%;
+  }
+
+/*--Footer Styling--*/
+
+footer {
+    background: #5c1606;
+    text-align: center;
+    font-size: 1rem;
+    color: #f6f6f6;
+    display: block;
+    padding: 2em 0 2em 0em;
+
+}
+
+footer p {
+    max-width: 40%;
+    margin: auto;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;
+}
+
+.connections ul{
+    margin: 0;
+    padding: 0;
+}
+
+.connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.connections a:link{
+    border-bottom: none;
+}
+
+.connections img, .connections svg{
+border: none;
+}
+
+.connections a:hover img, .connections a:hover svg{
+    border-bottom: none;
+}
+
+.connections svg {
+    margin: 1em auto;
+}
+
+.connections a:hover svg path {
+    fill: rgb(131, 131, 131);
+    transition: all 0.3s ease-in-out;
+}
+
+footer .connections a:hover svg path {
+    fill: rgb(131, 131, 131);
+    transition: all 0.3s ease-in-out;
+}
+
