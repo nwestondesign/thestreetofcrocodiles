@@ -9,6 +9,12 @@
 
 /*--Starting Main Styling--*/
 
+.block {
+    color: #fffaf7;
+    background: #5c1606;
+    padding-bottom: 1rem;
+}
+
 body {
     background: #fffaf7;
     color: #333;
@@ -80,16 +86,6 @@ blockquote {
     margin: 3rem 2rem 2rem 2rem;
 }
 
-#block {
-    color: #fffaf7;
-    background: #5c1606;
-    margin: auto;    
-    padding: 0 20rem 5rem 20rem;
-
-    width: 80%;
-    max-width: 800px;
-}
-
 #July {
     padding-top: 5rem;
 }
@@ -105,7 +101,7 @@ nav ul{
     background-color:#5c1606;
     padding: 3rem 15rem 3rem 0rem;
     font-family: Cinzel, serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -150,19 +146,21 @@ img {
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
+
 .column {
     float: left;
     width: 50;
     padding: 0 5px 0 5px;
   }
   
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    max-width: 100%;
-  }
+/* Clear floats after image containers */
+
+.row::after {
+content: "";
+clear: both;
+display: table;
+max-width: 100%;
+}
 
 /*--Footer Styling--*/
 
@@ -179,6 +177,17 @@ footer {
 footer p {
     max-width: 40%;
     margin: auto;
+}
+
+footer a{
+    color:#f6f6f6;
+    font-size: 1.5rem;
+}
+
+footer a:hover {
+    border-bottom: nono;
+    color:rgb(95, 95, 95);;
+    transition: all 0.3s ease-in-out;
 }
 
 .connections{
