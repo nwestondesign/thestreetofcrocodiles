@@ -284,6 +284,14 @@ footer .connections a:hover svg path {
 }
 
 @media (max-width: 875px) {
+
+    .gridimage {
+        margin: 3rem 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        column-gap: 40px;
+    }
+
     img {
         display: block;
         margin: 3rem 0 0 0;
@@ -294,10 +302,18 @@ footer .connections a:hover svg path {
 }
 
 @media (max-width: 750px) {
+
     h1{
         font-size: 4.5rem;
     }
 
+    .gridimage {
+        margin: 0rem 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        column-gap: 40px;
+    }
+    
     img {
         display: block;
         margin: 7rem 0 0 0;
@@ -349,8 +365,8 @@ footer .connections a:hover svg path {
     }
 
     header {
-        padding-top: 3rem;
-        margin-bottom: 2rem
+        padding-top: 5rem;
+        margin-bottom: 5rem
     }
 
     h1{
@@ -406,8 +422,8 @@ footer .connections a:hover svg path {
     }
 
     header {
-        padding-top: 3rem;
-        margin-bottom: 2rem
+        padding-top: 5rem;
+        margin-bottom: 5rem
     }
 
     h1{
