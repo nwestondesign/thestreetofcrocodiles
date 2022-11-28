@@ -99,7 +99,7 @@ nav ul{
     margin: auto;
     width: 100%;
     background-color:#5c1606;
-    padding: 3rem 15rem 3rem 0rem;
+    padding: 2rem 15rem 2rem 0rem;
     font-family: Cinzel, serif;
     font-size: 1.2rem;
     font-weight: bold;
@@ -239,10 +239,102 @@ footer .connections a:hover svg path {
     h1{
         font-size: 4.5rem;
     }
+
+    img {
+        display: block;
+        margin: 7rem 0 0 0;
+        padding: 0;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        background-color:#5c1606;
+        padding: 1rem 15rem 1rem 0rem;
+        font-family: Cinzel, serif;
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+
+    nav ul li {
+        padding: 0;
+        margin: 0.3rem;
+        line-height: 1.2rem;
+    }
+   
+    img {
+        display: block;
+        margin: 6rem 0 0 0;
+        padding: 0;
+        max-width: 100%;
+        align-items: center;
+    }
 }
 
+@media (max-width: 550px) {
+    
+    body{
+        margin: auto;
+        font-size: 0.8rem;
+    }
 
-@media (max-width: 500px) {
+    p, blockquote {
+        line-height: 1.4rem;
+        word-spacing: 0.05rem;
+        padding-top: 2rem;
+    }
+
+    header {
+        padding-top: 3rem;
+        margin-bottom: 2rem
+    }
+
+    h1{
+        padding-top: 0rem;
+        padding-bottom: 0.5rem;
+        font-size:3rem;
+    }
+
+    h2{
+        margin-top: 0rem;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        background-color:#5c1606;
+        padding: 1rem 15rem 1rem 0rem;
+        font-family: Cinzel, serif;
+        font-size: 0.8rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    nav ul li {
+        padding: 0;
+        margin: 0.3rem;
+        line-height: 1.2rem;
+    }
+   
+    img {
+        display: block;
+        margin: 5rem 0 0 0;
+        padding: 0;
+        max-width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 410px) {
     
     body{
         margin: auto;
