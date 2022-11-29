@@ -91,12 +91,12 @@ blockquote {
 }
 
 .dropcap {
-font-family: Source Serif Pro, serif;
-float: left;
-font-size: 6rem;
-padding-right: .05em;
-line-height: .5;
-color: #5c1606;
+    font-family: Source Serif Pro, serif;
+    float: left;
+    font-size: 6rem;
+    padding-right: .05em;
+    line-height: .5;
+    color: #5c1606;
 }
 
 .dropcap2 {
@@ -179,15 +179,13 @@ img {
     align-items: center;
 }
 
-
-
 /* Clear floats after image containers */
 
 .row::after {
-content: "";
-clear: both;
-display: table;
-max-width: 100%;
+    content: "";
+    clear: both;
+    display: table;
+    max-width: 100%;
 }
 
 /*--Footer Styling--*/
@@ -261,6 +259,8 @@ footer .connections a:hover svg path {
     transition: all 0.3s ease-in-out;
 }
 
+/*--Adding Resposiveness for >1000--*/
+
 @media (max-width: 1000px) {
 
     .bodyimg {
@@ -283,6 +283,8 @@ footer .connections a:hover svg path {
     }
 }
 
+/*--Adding Resposiveness for >875--*/
+
 @media (max-width: 875px) {
 
     .gridimage {
@@ -300,6 +302,8 @@ footer .connections a:hover svg path {
         align-items: center;
     }
 }
+
+/*--Adding Resposiveness for >750--*/
 
 @media (max-width: 750px) {
 
@@ -350,6 +354,8 @@ footer .connections a:hover svg path {
         align-items: center;
     }
 }
+
+/*--Adding Resposiveness for >550--*/
 
 @media (max-width: 550px) {
     
@@ -407,6 +413,8 @@ footer .connections a:hover svg path {
         align-items: center;
     }
 }
+
+/*--Adding Resposiveness for >410--*/
 
 @media (max-width: 410px) {
     
