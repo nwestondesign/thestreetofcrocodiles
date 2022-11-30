@@ -187,6 +187,8 @@ blockquote {
 
 /*--closes for mobile--*/
 div img.close {
+background-image: url(img/backg.png);
+background-repeat: repeat;
   display: none;
   width: 100%;
   height: 100%;
