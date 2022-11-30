@@ -185,6 +185,21 @@ blockquote {
     display: block;
   }
 
+/*close for mobile*/
+div img.close {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+div button:hover + img {
+  display: block;
+}
+
 html {
     scroll-padding-top: 7rem;
 }
