@@ -109,6 +109,7 @@ blockquote {
     }
 
 /*--navbar container--*/
+
 .navbar {
     overflow: hidden;
     background-color: #5c1606;
@@ -119,8 +120,9 @@ blockquote {
     font-style: bold;
   }
   
-  /*--navbar options*/
-  .navbar a {
+  /*--navbar options--*/
+
+.navbar a {
     float: left;
     font-size: 16px;
     color: white;
@@ -131,13 +133,15 @@ blockquote {
   }
   
   /*--option container--*/
-  .dropdown {
+
+.dropdown {
     float: center;
     overflow: hidden;
   }
 
   /*--dropdown button--*/
-  .dropdown .dropbtn {
+
+.dropdown .dropbtn {
     font-size: 1.5rem; 
     border: none;
     outline: none;
@@ -149,13 +153,14 @@ blockquote {
   }
   
   /*--style for option--*/
-  .navbar a:hover, .dropdown:hover .dropbtn {
+
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #300b03;
     padding: 1rem;
   }
   
   /*--dropdown content--*/
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: fixed;
     background-color: #fffaf7;
@@ -166,7 +171,8 @@ blockquote {
   }
   
   /*--options--*/
-  .dropdown-content a {
+
+.dropdown-content a {
     float: none;
     color: #5c1606;
     padding: 12px 16px;
@@ -176,27 +182,30 @@ blockquote {
   }
   
   /*--options background--*/
-  .dropdown-content a:hover {
+  
+.dropdown-content a:hover {
     background-color: #eae4e0;
   }
   
   /*--opens dropdown--*/
-  .dropdown:hover .dropdown-content {
+
+.dropdown:hover .dropdown-content {
     display: block;
   }
 
 /*--closes for mobile--*/
+
 div img.close {
-background-image: url(img/backg.png);
-background-repeat: repeat;
-  display: none;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: -1;
-}
+    background-image: url(img/backg.png);
+    background-repeat: repeat;
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    }
 
 div button:hover + img {
   display: block;
@@ -204,6 +213,23 @@ div button:hover + img {
 
 html {
     scroll-padding-top: 7rem;
+}
+
+/*--back to top--*/
+
+.back-to-top {
+    width: 70px;
+    position: fixed;
+    right: 4rem;
+    bottom: 4rem;
+  }
+
+.cls-1{
+    fill:#fffaf7;
+}
+
+.cls-2{
+    fill:#5c1606;
 }
 
 /*--img styling--*/
@@ -511,8 +537,17 @@ footer .connections a:hover svg path {
     .dropdown-content {
         margin: 0 0 0 7%;
   }
+
+  .back-to-top {
+    width: 40px;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+  }
   
 }
+
+
 
 /*--Adding Resposiveness for >410--*/
 

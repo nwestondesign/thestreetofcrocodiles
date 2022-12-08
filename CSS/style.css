@@ -158,6 +158,23 @@ html {
     scroll-padding-top: 7rem;
 }
 
+/*--back to top--*/
+
+.back-to-top {
+    width: 70px;
+    position: fixed;
+    right: 4rem;
+    bottom: 4rem;
+  }
+
+.cls-1{
+    fill:#fffaf7;
+}
+
+.cls-2{
+    fill:#5c1606;
+}
+
 /*--img styling--*/
 
 .bodyimg {
@@ -412,6 +429,14 @@ footer .connections a:hover svg path {
         max-width: 100%;
         align-items: center;
     }
+
+    .back-to-top {
+        width: 40px;
+        position: fixed;
+        right: 2rem;
+        bottom: 2rem;
+      }
+    
 }
 
 /*--Adding Resposiveness for >410--*/
