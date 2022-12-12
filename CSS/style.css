@@ -54,7 +54,7 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 h3, h4 {
@@ -88,6 +88,9 @@ blockquote {
 
 #July {
     padding-top: 5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+    line-height: 2.2rem;
 }
 
 .dropcap {
@@ -117,7 +120,7 @@ nav ul{
     margin: auto;
     width: 100%;
     background-color:#5c1606;
-    padding: 2rem 15rem 2rem 0rem;
+    padding: 1rem 15rem 1rem 0rem;
     font-family: Cinzel, serif;
     font-size: 1.2rem;
     font-weight: bold;
@@ -155,7 +158,7 @@ nav a:hover {
 }
 
 html {
-    scroll-padding-top: 7rem;
+    scroll-padding-top: 3rem;
 }
 
 /*--back to top--*/
@@ -190,7 +193,7 @@ html {
 
 img {
     display: block;
-    margin: -4rem 0 0 0;
+    margin: -8rem 0 0 0;
     padding: 0;
     max-width: 100%;
     align-items: center;
